@@ -1,0 +1,15 @@
+Copyright 2017 Ian Osburn
+
+These files are part of "QGis stylesheets to render OSM data as a modern, scalable map".
+
+"QGis stylesheets to render OSM data as a scalable map" is free software: you can redistribute
+it and/or modify it under the terms of the GNU General Public License as published by the Free
+Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+"QGis stylesheets to render OSM data as a scalable map" is distributed in the hope that it will
+be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with "QGis stylesheets
+to render OSM data as a scalable map" in a file called COPYING.txt and/or
+COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
