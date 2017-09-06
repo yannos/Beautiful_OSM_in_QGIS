@@ -4,13 +4,15 @@ Copyright 2017 Industrial Data & Analytics Ltd. Distributed under the GPLv3 lice
 
 The goal of this project is to produce beautiful, modern map styles or OpenStreetMap (OSM) data in QGIS.
 
-This project will enable anyone to easily create professional quality maps without needing to look into tile servers and other technicalities. Simply load the OSM data into QGIS, apply the stylesheets and let it render.
+This project will enable anyone to easily create professional quality maps without needing to look into tile servers and other technicalities. Simply load the OSM data into QGIS, apply the stylesheets and let it render. 
 
 If you improve these maps, please upload & commit your changes. Full attribution will be given to you under the GPLv3 license.
 
 OpenStreetMap (openstreetmap.org) is a project to free the information about our world and ensure it belongs to all, and not a small group (eg Google, Microsoft etc who may ‘be evil’ at some point in the future).
 
 The steps to your beautiful, scalable map in QGIS are below.
+
+This project is designed to work with osm2pgsql + default.style (more on this later).
 
 QUICK START GUIDE
 
@@ -67,8 +69,14 @@ You’re done. Tick “Render” and you now have a beautiful, scalable map.
 
 
 
-Step-by-step guide:
+KNOWN HACKS & ISSUES
 
+The planet_osm_roads stylesheet contains a hack to limit the frequency of roadshields displayed. By default, so many roadshields are displayed at high scales that it can be hard to see the roads. The stylesheet only displays the roadshield if the feature’s osm_id is divisible by 40 with no remainder (using modulo ie if osm_id % 40 = 0). This is completely arbitrary and a hack. Feel free to improve it if you know how.
+
+
+
+
+STEP-BY-STEP GUIDE:
 
 GET THE OSM DATA
 
@@ -202,11 +210,8 @@ And you’re done for a beautiful, scalable map in QGIS using OSM data.
 
 
 
-KNOWN HACKS & ISSUES
 
-The planet_osm_roads stylesheet contains a hack to limit the frequency of roadshields displayed. By default, so many roadshields are displayed at high scales that it can be hard to see the roads. The stylesheet only displays the roadshield if the feature’s osm_id is divisible by 40 with no remainder (using modulo ie if osm_id % 40 = 0). This is completely arbitrary and a hack. Feel free to improve it if you know how.
-
-Design notes
+DESIGN NOTES
 
 PLANET_OSM_point.qml: 
 
