@@ -1,16 +1,20 @@
 ﻿QGIS stylesheets and code to render OSM data as a scalable map
  
-Copyright 2017 Industrial Data & Analytics Ltd. Distributed under the GPLv3 license. See the statement at the end of this document for more information. For support, please use GitHub tickets / bug tracker. For other contact, email info@dataandanalytics.co.uk.
-The goal of this project is to produce beautiful, modern map styles or OpenStreetMap (OSM) data in QGIS. I will enable anyone to easily create professional quality maps without needing to look into tile servers and other technicalities. Simply load the OSM data into QGIS, apply the stylesheets and let it render.
-If you improve on these maps, please upload your changes for the project to commit. Full attribution to you will be given, subject to the GPLv3 license under which this is distributed.
+Copyright 2017 Industrial Data & Analytics Ltd. Distributed under the GPLv3 license. See the statement at the end of this document for more information. For support, please use GitHub tickets / bug tracker. For other contact or to work together, email info@dataandanalytics.co.uk.
+
+The goal of this project is to produce beautiful, modern map styles or OpenStreetMap (OSM) data in QGIS.
+
+This project will enable anyone to easily create professional quality maps without needing to look into tile servers and other technicalities. Simply load the OSM data into QGIS, apply the stylesheets and let it render.
+
+If you improve these maps, please upload & commit your changes. Full attribution will be given to you under the GPLv3 license.
+
 OpenStreetMap (openstreetmap.org) is a project to free the information about our world and ensure it belongs to all, and not a small group (eg Google, Microsoft etc who may ‘be evil’ at some point in the future).
+
 The steps to your beautiful, scalable map in QGIS are below.
 
 QUICK START GUIDE
 
-To get started quickly these are the steps:
-
-Note: recommended to untick “Render” to speed creation.
+Untick “Render” to speed creation.
 
 1) load your OSM data into QGIS as Postgres vector layers.
 One layer should be created for each table of planet_osm_roads, planet_osm_point, planet_osm_line, planet_osm_polygon (in rendering order last→first ie, in the layers panel, roads should be on top of point, on top of line etc).
@@ -60,6 +64,7 @@ Others, eg Mercator, can be downloaded from here. Just select the one you want: 
 Import as shapefile into QGIS and apply land.qml stylesheet.
 
 You’re done. Tick “Render” and you now have a beautiful, scalable map.
+
 
 
 Step-by-step guide:
