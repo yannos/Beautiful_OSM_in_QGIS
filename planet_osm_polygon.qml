@@ -1,245 +1,228 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<?copyleft-statement-and-license
-Copyright 2017 Ian Osburn
-
-This file is part of "QGIS stylesheets and code to render OSM data as a scalable map".
-
-"QGIS stylesheets and code to render OSM data as a scalable map" is free software: you can redistribute
-it and/ormodify it under the terms of the GNU General Public License as published by the Free
-Software Foundation, either version 3 of the License, or (at your option) any later version.
-
-"QGIS stylesheets and code to render OSM data as a scalable map" is distributed in the hope that it will
-be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
-FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License along with "QGis stylesheets
-to render OSM data as a scalable map" in a file called COPYING.txt and/or
-COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
-?>
-<qgis version="2.8.6-Wien" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+<qgis version="2.18.13" simplifyAlgorithm="0" minimumScale="0" maximumScale="1.2e+07" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <edittypes>
     <edittype widgetv2type="TextEdit" name="osm_id">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="access">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="addr:housename">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="addr:housenumber">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="addr:interpolation">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="admin_level">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="aerialway">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="aeroway">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="amenity">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="area">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="barrier">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="bicycle">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="brand">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="bridge">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="boundary">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="building">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="construction">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="covered">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="culvert">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="cutting">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="denomination">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="disused">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="embankment">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="foot">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="generator:source">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="harbour">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="highway">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="historic">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="horse">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="intermittent">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="junction">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="landuse">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="layer">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="leisure">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="lock">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="man_made">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="military">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="motorcar">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="name">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="natural">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="office">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="oneway">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="operator">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="place">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="population">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="power">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="power_source">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="public_transport">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="railway">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="ref">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="religion">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="route">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="service">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="shop">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="sport">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="surface">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="toll">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="tourism">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="tower:type">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="tracktype">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="tunnel">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="water">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="waterway">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="wetland">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="width">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="wood">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="z_order">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="way_area">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="tags">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="areasqm">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
   </edittypes>
-  <renderer-v2 symbollevels="0" type="RuleRenderer">
+  <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="0">
     <rules key="{b60f6b09-4555-4549-9b42-7e5d10c09443}">
       <rule filter="&quot;natural&quot; IN ('water','riverbank') or &quot;water&quot; IS NOT NULL or &quot;waterway&quot; IS NOT NULL or &quot;landuse&quot; = 'reservoir'" key="{a87dd303-14e5-428b-b1e8-4c3ceafca394}" symbol="0" label="water"/>
-      <rule filter="&quot;boundary&quot; = 'national_park'" key="{19da94de-abd8-4cfb-a195-86b7e9d7f215}" symbol="1" label="national park"/>
-      <rule filter="&quot;landuse&quot; = 'forest' or 'natural' = 'wood'" key="{96e01fbc-155e-4969-9ad5-6f65e3c76664}" symbol="2" label="forest"/>
+      <rule scalemaxdenom="2000000" checkstate="0" filter="&quot;boundary&quot; = 'national_park'" key="{19da94de-abd8-4cfb-a195-86b7e9d7f215}" symbol="1" scalemindenom="1" label="national park"/>
+      <rule scalemaxdenom="2000000" filter="&quot;landuse&quot; = 'forest' or 'natural' = 'wood'" key="{96e01fbc-155e-4969-9ad5-6f65e3c76664}" symbol="2" scalemindenom="1000" label="forest"/>
       <rule scalemaxdenom="2000000" filter="&quot;leisure&quot; IN ( 'park','nature_reserve') or &quot;landuse&quot; IN ('grass','recreation_ground')" key="{99f09332-c05d-48c5-a179-2f0d5522d98f}" symbol="3" scalemindenom="1" label="grass &amp; park "/>
       <rule scalemaxdenom="1000000" filter=" &quot;landuse&quot; = 'meadow'" key="{7ebb7211-e0c3-47e0-97cf-4f5eab724962}" symbol="4" scalemindenom="1" label="meadow"/>
       <rule scalemaxdenom="1000000" filter="&quot;landuse&quot; = 'farmyard'" key="{c83f93d4-74f3-4d91-8d89-26c753d11085}" symbol="5" scalemindenom="1" label="farmyard"/>
       <rule scalemaxdenom="1000000" filter="&quot;landuse&quot; IN ('farmland', 'farm')" key="{1f8f5c3c-b149-4013-800a-49e3492c36b7}" symbol="6" scalemindenom="1" label="farmland"/>
       <rule scalemaxdenom="1000000" filter=" &quot;aeroway&quot; is not null or &quot;landuse&quot; = 'industrial'" key="{657d39ae-4a13-4bb4-a908-dbbe5bf66806}" symbol="7" scalemindenom="1" label="industrial"/>
-      <rule scalemaxdenom="1000000" filter="&quot;landuse&quot; IN ('residential', 'commercial;residential')" key="{e19d6fb3-137d-4c0e-b5b4-54e0bee1d3b1}" symbol="8" scalemindenom="1" label="residential"/>
+      <rule scalemaxdenom="12000000" filter="&quot;landuse&quot; IN ('residential', 'commercial;residential')" key="{e19d6fb3-137d-4c0e-b5b4-54e0bee1d3b1}" symbol="8" scalemindenom="1" label="residential"/>
       <rule scalemaxdenom="1000000" filter="&quot;landuse&quot; = 'commercial'" key="{a9b21db8-d54a-4679-bd34-edc1da5c19fc}" symbol="9" scalemindenom="1" label="commercial"/>
       <rule scalemaxdenom="1000000" filter="&quot;landuse&quot; = 'retail'" key="{0ed05a1a-ab06-4657-a6db-3ecf1a3f35a5}" symbol="10" scalemindenom="1" label="retail"/>
       <rule scalemaxdenom="1000000" filter="&quot;landuse&quot; = 'allotments'" key="{ac7c0498-35f9-4593-808a-b8456dba4a3f}" symbol="11" scalemindenom="1" label="allotments"/>
@@ -265,13 +248,13 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
       </rule>
     </rules>
     <symbols>
-      <symbol alpha="1" type="fill" name="0">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
         <layer pass="3" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="182,217,255,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="182,217,255,255"/>
           <prop k="outline_style" v="no"/>
@@ -280,13 +263,13 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="1">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="1">
         <layer pass="0" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
-          <prop k="color" v="186,221,105,255"/>
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="color" v="203,230,163,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="128,152,72,0"/>
           <prop k="outline_style" v="solid"/>
@@ -296,44 +279,49 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
         </layer>
         <layer pass="0" class="PointPatternFill" locked="0">
           <prop k="displacement_x" v="0"/>
-          <prop k="displacement_x_map_unit_scale" v="0,0"/>
+          <prop k="displacement_x_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="displacement_x_unit" v="MM"/>
           <prop k="displacement_y" v="0"/>
-          <prop k="displacement_y_map_unit_scale" v="0,0"/>
+          <prop k="displacement_y_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="displacement_y_unit" v="MM"/>
           <prop k="distance_x" v="3"/>
-          <prop k="distance_x_map_unit_scale" v="0,0"/>
+          <prop k="distance_x_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="distance_x_unit" v="MM"/>
           <prop k="distance_y" v="3"/>
-          <prop k="distance_y_map_unit_scale" v="0,0"/>
+          <prop k="distance_y_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="distance_y_unit" v="MM"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MM"/>
-          <symbol alpha="1" type="marker" name="@1@1">
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="@1@1">
             <layer pass="0" class="FontMarker" locked="0">
               <prop k="angle" v="0"/>
               <prop k="chr" v=""/>
-              <prop k="color" v="126,126,126,255"/>
+              <prop k="color" v="203,230,163,255"/>
               <prop k="font" v="Dingbats"/>
               <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="miter"/>
               <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
               <prop k="size" v="2"/>
-              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
             </layer>
           </symbol>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="10">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="10">
         <layer pass="2" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="254,220,216,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="0,0,0,0"/>
           <prop k="outline_style" v="solid"/>
@@ -342,13 +330,13 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="11">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="11">
         <layer pass="2" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="238,207,179,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="175,179,138,0"/>
           <prop k="outline_style" v="solid"/>
@@ -358,49 +346,50 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
         </layer>
         <layer pass="2" class="PointPatternFill" locked="0">
           <prop k="displacement_x" v="0"/>
-          <prop k="displacement_x_map_unit_scale" v="0,0"/>
+          <prop k="displacement_x_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="displacement_x_unit" v="MM"/>
           <prop k="displacement_y" v="1"/>
-          <prop k="displacement_y_map_unit_scale" v="0,0"/>
+          <prop k="displacement_y_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="displacement_y_unit" v="MM"/>
           <prop k="distance_x" v="3"/>
-          <prop k="distance_x_map_unit_scale" v="0,0"/>
+          <prop k="distance_x_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="distance_x_unit" v="MM"/>
           <prop k="distance_y" v="3"/>
-          <prop k="distance_y_map_unit_scale" v="0,0"/>
+          <prop k="distance_y_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="distance_y_unit" v="MM"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MM"/>
-          <symbol alpha="1" type="marker" name="@11@1">
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="@11@1">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
               <prop k="color" v="228,228,228,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="outline_color" v="0,0,0,0"/>
               <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="0,0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="scale_method" v="area"/>
               <prop k="size" v="0.6"/>
-              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
             </layer>
           </symbol>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="12">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="12">
         <layer pass="2" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
-          <prop k="color" v="168,202,173,255"/>
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="color" v="147,177,151,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="128,152,72,0"/>
           <prop k="outline_style" v="solid"/>
@@ -410,49 +399,50 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
         </layer>
         <layer pass="2" class="PointPatternFill" locked="0">
           <prop k="displacement_x" v="0"/>
-          <prop k="displacement_x_map_unit_scale" v="0,0"/>
+          <prop k="displacement_x_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="displacement_x_unit" v="MM"/>
           <prop k="displacement_y" v="0"/>
-          <prop k="displacement_y_map_unit_scale" v="0,0"/>
+          <prop k="displacement_y_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="displacement_y_unit" v="MM"/>
           <prop k="distance_x" v="4"/>
-          <prop k="distance_x_map_unit_scale" v="0,0"/>
+          <prop k="distance_x_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="distance_x_unit" v="MM"/>
           <prop k="distance_y" v="4"/>
-          <prop k="distance_y_map_unit_scale" v="0,0"/>
+          <prop k="distance_y_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="distance_y_unit" v="MM"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MM"/>
-          <symbol alpha="1" type="marker" name="@12@1">
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="@12@1">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="197,197,197,255"/>
+              <prop k="color" v="147,177,151,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="rectangle"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="square"/>
               <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_color" v="125,150,128,255"/>
               <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="0,0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="scale_method" v="diameter"/>
               <prop k="size" v="1"/>
-              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
             </layer>
           </symbol>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="13">
-        <layer pass="0" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="13">
+        <layer pass="1" class="SimpleFill" locked="0">
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="199,199,180,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="0,0,0,0"/>
           <prop k="outline_style" v="solid"/>
@@ -461,13 +451,13 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="14">
-        <layer pass="0" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="14">
+        <layer pass="1" class="SimpleFill" locked="0">
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="196,194,194,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="128,152,72,0"/>
           <prop k="outline_style" v="solid"/>
@@ -475,46 +465,51 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
           <prop k="outline_width_unit" v="MM"/>
           <prop k="style" v="solid"/>
         </layer>
-        <layer pass="0" class="PointPatternFill" locked="0">
+        <layer pass="1" class="PointPatternFill" locked="0">
           <prop k="displacement_x" v="1"/>
-          <prop k="displacement_x_map_unit_scale" v="0,0"/>
+          <prop k="displacement_x_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="displacement_x_unit" v="MM"/>
           <prop k="displacement_y" v="0"/>
-          <prop k="displacement_y_map_unit_scale" v="0,0"/>
+          <prop k="displacement_y_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="displacement_y_unit" v="MM"/>
           <prop k="distance_x" v="4"/>
-          <prop k="distance_x_map_unit_scale" v="0,0"/>
+          <prop k="distance_x_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="distance_x_unit" v="MM"/>
           <prop k="distance_y" v="4"/>
-          <prop k="distance_y_map_unit_scale" v="0,0"/>
+          <prop k="distance_y_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="distance_y_unit" v="MM"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MM"/>
-          <symbol alpha="1" type="marker" name="@14@1">
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="@14@1">
             <layer pass="0" class="FontMarker" locked="0">
               <prop k="angle" v="0"/>
               <prop k="chr" v="Χ"/>
               <prop k="color" v="238,238,238,255"/>
               <prop k="font" v="Dingbats"/>
               <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="miter"/>
               <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
               <prop k="size" v="1.5"/>
-              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
             </layer>
           </symbol>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="15">
-        <layer pass="0" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="15">
+        <layer pass="1" class="SimpleFill" locked="0">
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="181,181,144,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="0,0,0,0"/>
           <prop k="outline_style" v="solid"/>
@@ -523,13 +518,13 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="16">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="16">
         <layer pass="1" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="172,224,161,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="175,179,138,0"/>
           <prop k="outline_style" v="solid"/>
@@ -539,49 +534,50 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
         </layer>
         <layer pass="1" class="PointPatternFill" locked="0">
           <prop k="displacement_x" v="0"/>
-          <prop k="displacement_x_map_unit_scale" v="0,0"/>
+          <prop k="displacement_x_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="displacement_x_unit" v="MM"/>
           <prop k="displacement_y" v="0"/>
-          <prop k="displacement_y_map_unit_scale" v="0,0"/>
+          <prop k="displacement_y_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="displacement_y_unit" v="MM"/>
           <prop k="distance_x" v="1.5"/>
-          <prop k="distance_x_map_unit_scale" v="0,0"/>
+          <prop k="distance_x_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="distance_x_unit" v="MM"/>
           <prop k="distance_y" v="1.5"/>
-          <prop k="distance_y_map_unit_scale" v="0,0"/>
+          <prop k="distance_y_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="distance_y_unit" v="MM"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MM"/>
-          <symbol alpha="1" type="marker" name="@16@1">
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="@16@1">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
               <prop k="color" v="176,176,176,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="outline_color" v="0,0,0,0"/>
               <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="0,0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="scale_method" v="area"/>
               <prop k="size" v="0.4"/>
-              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
             </layer>
           </symbol>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="17">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="17">
         <layer pass="1" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="235,218,233,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="0,0,0,0"/>
           <prop k="outline_style" v="solid"/>
@@ -590,13 +586,13 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="18">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="18">
         <layer pass="2" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="147,166,91,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="0,0,0,0"/>
           <prop k="outline_style" v="solid"/>
@@ -605,13 +601,13 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="19">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="19">
         <layer pass="4" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="242,242,242,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="143,143,143,255"/>
           <prop k="outline_style" v="solid"/>
@@ -620,13 +616,13 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="2">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="2">
         <layer pass="0" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="172,209,155,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="128,152,72,0"/>
           <prop k="outline_style" v="solid"/>
@@ -634,46 +630,51 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
           <prop k="outline_width_unit" v="MM"/>
           <prop k="style" v="solid"/>
         </layer>
-        <layer pass="0" class="PointPatternFill" locked="0">
+        <layer pass="1" class="PointPatternFill" locked="0">
           <prop k="displacement_x" v="1"/>
-          <prop k="displacement_x_map_unit_scale" v="0,0"/>
+          <prop k="displacement_x_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="displacement_x_unit" v="MM"/>
           <prop k="displacement_y" v="0"/>
-          <prop k="displacement_y_map_unit_scale" v="0,0"/>
+          <prop k="displacement_y_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="displacement_y_unit" v="MM"/>
           <prop k="distance_x" v="3"/>
-          <prop k="distance_x_map_unit_scale" v="0,0"/>
+          <prop k="distance_x_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="distance_x_unit" v="MM"/>
           <prop k="distance_y" v="3"/>
-          <prop k="distance_y_map_unit_scale" v="0,0"/>
+          <prop k="distance_y_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="distance_y_unit" v="MM"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MM"/>
-          <symbol alpha="1" type="marker" name="@2@1">
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="@2@1">
             <layer pass="0" class="FontMarker" locked="0">
               <prop k="angle" v="0"/>
               <prop k="chr" v="ȹ"/>
               <prop k="color" v="176,176,176,255"/>
               <prop k="font" v="Dingbats"/>
               <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="miter"/>
               <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
               <prop k="size" v="1.5"/>
-              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
             </layer>
           </symbol>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="20">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="20">
         <layer pass="4" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="242,242,242,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="143,143,143,255"/>
           <prop k="outline_style" v="solid"/>
@@ -682,13 +683,13 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="21">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="21">
         <layer pass="4" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="242,242,242,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="143,143,143,255"/>
           <prop k="outline_style" v="solid"/>
@@ -697,13 +698,13 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="22">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="22">
         <layer pass="4" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="249,237,241,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="143,143,143,255"/>
           <prop k="outline_style" v="solid"/>
@@ -712,13 +713,13 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="23">
-        <layer pass="0" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="23">
+        <layer pass="1" class="SimpleFill" locked="0">
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="250,237,219,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="176,176,176,255"/>
           <prop k="outline_style" v="solid"/>
@@ -727,13 +728,13 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="24">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="24">
         <layer pass="4" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="242,242,242,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="143,143,143,255"/>
           <prop k="outline_style" v="solid"/>
@@ -742,13 +743,13 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="25">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="25">
         <layer pass="4" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="218,195,163,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="176,176,176,255"/>
           <prop k="outline_style" v="solid"/>
@@ -757,13 +758,13 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="26">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="26">
         <layer pass="4" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="240,207,122,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="176,176,176,255"/>
           <prop k="outline_style" v="solid"/>
@@ -772,13 +773,13 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="27">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="27">
         <layer pass="4" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="227,227,227,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="176,176,176,255"/>
           <prop k="outline_style" v="solid"/>
@@ -787,13 +788,13 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="28">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="28">
         <layer pass="4" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="135,103,54,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="103,103,103,255"/>
           <prop k="outline_style" v="solid"/>
@@ -802,13 +803,13 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="29">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="29">
         <layer pass="4" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="106,148,32,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="176,176,176,255"/>
           <prop k="outline_style" v="solid"/>
@@ -817,13 +818,13 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="3">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="3">
         <layer pass="1" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="206,237,164,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="0,0,0,0"/>
           <prop k="outline_style" v="solid"/>
@@ -832,13 +833,13 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="4">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="4">
         <layer pass="2" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="188,236,140,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="128,152,72,0"/>
           <prop k="outline_style" v="solid"/>
@@ -848,44 +849,49 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
         </layer>
         <layer pass="2" class="PointPatternFill" locked="0">
           <prop k="displacement_x" v="0"/>
-          <prop k="displacement_x_map_unit_scale" v="0,0"/>
+          <prop k="displacement_x_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="displacement_x_unit" v="MM"/>
           <prop k="displacement_y" v="0"/>
-          <prop k="displacement_y_map_unit_scale" v="0,0"/>
+          <prop k="displacement_y_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="displacement_y_unit" v="MM"/>
           <prop k="distance_x" v="3"/>
-          <prop k="distance_x_map_unit_scale" v="0,0"/>
+          <prop k="distance_x_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="distance_x_unit" v="MM"/>
           <prop k="distance_y" v="3"/>
-          <prop k="distance_y_map_unit_scale" v="0,0"/>
+          <prop k="distance_y_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="distance_y_unit" v="MM"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MM"/>
-          <symbol alpha="1" type="marker" name="@4@1">
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="@4@1">
             <layer pass="0" class="FontMarker" locked="0">
               <prop k="angle" v="0"/>
               <prop k="chr" v="ѱ"/>
               <prop k="color" v="176,176,176,255"/>
               <prop k="font" v="Dingbats"/>
               <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="miter"/>
               <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
               <prop k="size" v="2"/>
-              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
             </layer>
           </symbol>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="5">
-        <layer pass="0" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="5">
+        <layer pass="1" class="SimpleFill" locked="0">
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="239,213,179,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="0,0,0,0"/>
           <prop k="outline_style" v="solid"/>
@@ -894,13 +900,13 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="6">
-        <layer pass="0" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="6">
+        <layer pass="1" class="SimpleFill" locked="0">
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="251,236,212,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="0,0,0,0"/>
           <prop k="outline_style" v="solid"/>
@@ -909,13 +915,13 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="7">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="7">
         <layer pass="2" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="208,208,208,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="0,0,0,255"/>
           <prop k="outline_style" v="no"/>
@@ -924,13 +930,13 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="8">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="8">
         <layer pass="2" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="225,225,225,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="0,0,0,255"/>
           <prop k="outline_style" v="no"/>
@@ -939,13 +945,13 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="fill" name="9">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="9">
         <layer pass="2" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0"/>
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="238,207,207,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="176,176,176,0"/>
           <prop k="outline_style" v="solid"/>
@@ -956,7 +962,9 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
       </symbol>
     </symbols>
   </renderer-v2>
+  <labeling type="simple"/>
   <customproperties>
+    <property key="embeddedWidgets/count" value="0"/>
     <property key="labeling" value="pal"/>
     <property key="labeling/addDirectionSymbol" value="false"/>
     <property key="labeling/angleOffset" value="0"/>
@@ -1120,6 +1128,8 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
     <property key="labeling/xOffset" value="0"/>
     <property key="labeling/yOffset" value="0"/>
     <property key="labeling/zIndex" value="0"/>
+    <property key="variableNames"/>
+    <property key="variableValues"/>
   </customproperties>
   <blendMode>0</blendMode>
   <featureBlendMode>0</featureBlendMode>
@@ -1146,12 +1156,38 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
     <multilineenabled fieldname="" on=""/>
     <selectedonly on=""/>
   </labelattributes>
-  <editform>.</editform>
-  <editforminit/>
-  <featformsuppress>0</featformsuppress>
+  <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
+    <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
+      <fontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
+      <attribute field="" color="#000000" label=""/>
+    </DiagramCategory>
+    <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="255,0,0,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="name" v="circle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="size" v="2"/>
+        <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+  </SingleCategoryDiagramRenderer>
+  <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
   <annotationform>../../../../OSGeo4W64/bin</annotationform>
-  <editorlayout>generatedlayout</editorlayout>
   <aliases>
+    <alias field="osm_id" index="0" name=""/>
     <alias field="access" index="1" name=""/>
     <alias field="addr:housename" index="2" name=""/>
     <alias field="addr:housenumber" index="3" name=""/>
@@ -1163,9 +1199,9 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
     <alias field="area" index="9" name=""/>
     <alias field="barrier" index="10" name=""/>
     <alias field="bicycle" index="11" name=""/>
-    <alias field="boundary" index="14" name=""/>
     <alias field="brand" index="12" name=""/>
     <alias field="bridge" index="13" name=""/>
+    <alias field="boundary" index="14" name=""/>
     <alias field="building" index="15" name=""/>
     <alias field="construction" index="16" name=""/>
     <alias field="covered" index="17" name=""/>
@@ -1194,7 +1230,6 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
     <alias field="office" index="40" name=""/>
     <alias field="oneway" index="41" name=""/>
     <alias field="operator" index="42" name=""/>
-    <alias field="osm_id" index="0" name=""/>
     <alias field="place" index="43" name=""/>
     <alias field="population" index="44" name=""/>
     <alias field="power" index="45" name=""/>
@@ -1208,7 +1243,6 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
     <alias field="shop" index="53" name=""/>
     <alias field="sport" index="54" name=""/>
     <alias field="surface" index="55" name=""/>
-    <alias field="tags" index="68" name=""/>
     <alias field="toll" index="56" name=""/>
     <alias field="tourism" index="57" name=""/>
     <alias field="tower:type" index="58" name=""/>
@@ -1216,13 +1250,192 @@ COPYING.license-gpl-3.0.odt.  If not, see <http://www.gnu.org/licenses/>.
     <alias field="tunnel" index="60" name=""/>
     <alias field="water" index="61" name=""/>
     <alias field="waterway" index="62" name=""/>
-    <alias field="way_area" index="67" name=""/>
     <alias field="wetland" index="63" name=""/>
     <alias field="width" index="64" name=""/>
     <alias field="wood" index="65" name=""/>
     <alias field="z_order" index="66" name=""/>
+    <alias field="way_area" index="67" name=""/>
+    <alias field="tags" index="68" name=""/>
+    <alias field="areasqm" index="69" name=""/>
   </aliases>
   <excludeAttributesWMS/>
   <excludeAttributesWFS/>
-  <attributeactions/>
+  <attributeactions default="-1"/>
+  <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+    <columns>
+      <column width="-1" hidden="0" type="field" name="osm_id"/>
+      <column width="-1" hidden="0" type="field" name="access"/>
+      <column width="-1" hidden="0" type="field" name="addr:housename"/>
+      <column width="-1" hidden="0" type="field" name="addr:housenumber"/>
+      <column width="-1" hidden="0" type="field" name="addr:interpolation"/>
+      <column width="-1" hidden="0" type="field" name="admin_level"/>
+      <column width="-1" hidden="0" type="field" name="aerialway"/>
+      <column width="-1" hidden="0" type="field" name="aeroway"/>
+      <column width="-1" hidden="0" type="field" name="amenity"/>
+      <column width="-1" hidden="0" type="field" name="area"/>
+      <column width="-1" hidden="0" type="field" name="barrier"/>
+      <column width="-1" hidden="0" type="field" name="bicycle"/>
+      <column width="-1" hidden="0" type="field" name="brand"/>
+      <column width="-1" hidden="0" type="field" name="bridge"/>
+      <column width="-1" hidden="0" type="field" name="boundary"/>
+      <column width="-1" hidden="0" type="field" name="building"/>
+      <column width="-1" hidden="0" type="field" name="construction"/>
+      <column width="-1" hidden="0" type="field" name="covered"/>
+      <column width="-1" hidden="0" type="field" name="culvert"/>
+      <column width="-1" hidden="0" type="field" name="cutting"/>
+      <column width="-1" hidden="0" type="field" name="denomination"/>
+      <column width="-1" hidden="0" type="field" name="disused"/>
+      <column width="-1" hidden="0" type="field" name="embankment"/>
+      <column width="-1" hidden="0" type="field" name="foot"/>
+      <column width="-1" hidden="0" type="field" name="generator:source"/>
+      <column width="-1" hidden="0" type="field" name="harbour"/>
+      <column width="-1" hidden="0" type="field" name="highway"/>
+      <column width="-1" hidden="0" type="field" name="historic"/>
+      <column width="-1" hidden="0" type="field" name="horse"/>
+      <column width="-1" hidden="0" type="field" name="intermittent"/>
+      <column width="-1" hidden="0" type="field" name="junction"/>
+      <column width="-1" hidden="0" type="field" name="landuse"/>
+      <column width="-1" hidden="0" type="field" name="layer"/>
+      <column width="-1" hidden="0" type="field" name="leisure"/>
+      <column width="-1" hidden="0" type="field" name="lock"/>
+      <column width="-1" hidden="0" type="field" name="man_made"/>
+      <column width="-1" hidden="0" type="field" name="military"/>
+      <column width="-1" hidden="0" type="field" name="motorcar"/>
+      <column width="-1" hidden="0" type="field" name="name"/>
+      <column width="-1" hidden="0" type="field" name="natural"/>
+      <column width="-1" hidden="0" type="field" name="office"/>
+      <column width="-1" hidden="0" type="field" name="oneway"/>
+      <column width="-1" hidden="0" type="field" name="operator"/>
+      <column width="-1" hidden="0" type="field" name="place"/>
+      <column width="-1" hidden="0" type="field" name="population"/>
+      <column width="-1" hidden="0" type="field" name="power"/>
+      <column width="-1" hidden="0" type="field" name="power_source"/>
+      <column width="-1" hidden="0" type="field" name="public_transport"/>
+      <column width="-1" hidden="0" type="field" name="railway"/>
+      <column width="-1" hidden="0" type="field" name="ref"/>
+      <column width="-1" hidden="0" type="field" name="religion"/>
+      <column width="-1" hidden="0" type="field" name="route"/>
+      <column width="-1" hidden="0" type="field" name="service"/>
+      <column width="-1" hidden="0" type="field" name="shop"/>
+      <column width="-1" hidden="0" type="field" name="sport"/>
+      <column width="-1" hidden="0" type="field" name="surface"/>
+      <column width="-1" hidden="0" type="field" name="toll"/>
+      <column width="-1" hidden="0" type="field" name="tourism"/>
+      <column width="-1" hidden="0" type="field" name="tower:type"/>
+      <column width="-1" hidden="0" type="field" name="tracktype"/>
+      <column width="-1" hidden="0" type="field" name="tunnel"/>
+      <column width="-1" hidden="0" type="field" name="water"/>
+      <column width="-1" hidden="0" type="field" name="waterway"/>
+      <column width="-1" hidden="0" type="field" name="wetland"/>
+      <column width="-1" hidden="0" type="field" name="width"/>
+      <column width="-1" hidden="0" type="field" name="wood"/>
+      <column width="-1" hidden="0" type="field" name="z_order"/>
+      <column width="-1" hidden="0" type="field" name="way_area"/>
+      <column width="-1" hidden="0" type="field" name="tags"/>
+      <column width="-1" hidden="0" type="field" name="areasqm"/>
+      <column width="-1" hidden="1" type="actions"/>
+    </columns>
+  </attributetableconfig>
+  <editform>.</editform>
+  <editforminit/>
+  <editforminitcodesource>0</editforminitcodesource>
+  <editforminitfilepath>.</editforminitfilepath>
+  <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+  <featformsuppress>0</featformsuppress>
+  <editorlayout>generatedlayout</editorlayout>
+  <widgets/>
+  <conditionalstyles>
+    <rowstyles/>
+    <fieldstyles/>
+  </conditionalstyles>
+  <defaults>
+    <default field="osm_id" expression=""/>
+    <default field="access" expression=""/>
+    <default field="addr:housename" expression=""/>
+    <default field="addr:housenumber" expression=""/>
+    <default field="addr:interpolation" expression=""/>
+    <default field="admin_level" expression=""/>
+    <default field="aerialway" expression=""/>
+    <default field="aeroway" expression=""/>
+    <default field="amenity" expression=""/>
+    <default field="area" expression=""/>
+    <default field="barrier" expression=""/>
+    <default field="bicycle" expression=""/>
+    <default field="brand" expression=""/>
+    <default field="bridge" expression=""/>
+    <default field="boundary" expression=""/>
+    <default field="building" expression=""/>
+    <default field="construction" expression=""/>
+    <default field="covered" expression=""/>
+    <default field="culvert" expression=""/>
+    <default field="cutting" expression=""/>
+    <default field="denomination" expression=""/>
+    <default field="disused" expression=""/>
+    <default field="embankment" expression=""/>
+    <default field="foot" expression=""/>
+    <default field="generator:source" expression=""/>
+    <default field="harbour" expression=""/>
+    <default field="highway" expression=""/>
+    <default field="historic" expression=""/>
+    <default field="horse" expression=""/>
+    <default field="intermittent" expression=""/>
+    <default field="junction" expression=""/>
+    <default field="landuse" expression=""/>
+    <default field="layer" expression=""/>
+    <default field="leisure" expression=""/>
+    <default field="lock" expression=""/>
+    <default field="man_made" expression=""/>
+    <default field="military" expression=""/>
+    <default field="motorcar" expression=""/>
+    <default field="name" expression=""/>
+    <default field="natural" expression=""/>
+    <default field="office" expression=""/>
+    <default field="oneway" expression=""/>
+    <default field="operator" expression=""/>
+    <default field="place" expression=""/>
+    <default field="population" expression=""/>
+    <default field="power" expression=""/>
+    <default field="power_source" expression=""/>
+    <default field="public_transport" expression=""/>
+    <default field="railway" expression=""/>
+    <default field="ref" expression=""/>
+    <default field="religion" expression=""/>
+    <default field="route" expression=""/>
+    <default field="service" expression=""/>
+    <default field="shop" expression=""/>
+    <default field="sport" expression=""/>
+    <default field="surface" expression=""/>
+    <default field="toll" expression=""/>
+    <default field="tourism" expression=""/>
+    <default field="tower:type" expression=""/>
+    <default field="tracktype" expression=""/>
+    <default field="tunnel" expression=""/>
+    <default field="water" expression=""/>
+    <default field="waterway" expression=""/>
+    <default field="wetland" expression=""/>
+    <default field="width" expression=""/>
+    <default field="wood" expression=""/>
+    <default field="z_order" expression=""/>
+    <default field="way_area" expression=""/>
+    <default field="tags" expression=""/>
+    <default field="areasqm" expression=""/>
+  </defaults>
+  <previewExpression></previewExpression>
+  <layerGeometryType>2</layerGeometryType>
 </qgis>
